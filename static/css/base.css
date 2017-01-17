@@ -695,6 +695,7 @@ Auto-fill & Equal height === */
 .grid {
   margin-right: auto;
   margin-left: auto;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -714,6 +715,7 @@ Auto-fill & Equal height === */
 .grid > .column {
   position: relative;
   width: 100%;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   flex: auto;
@@ -1248,6 +1250,7 @@ display: block;
 /*=== 4.1. Navbars === */
 
 nav ul {
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -1280,6 +1283,7 @@ nav[role=navigation] li a {
   padding: 0 1.6rem;
   line-height: 4.8rem;
   text-decoration: none;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   justify-content: center;
@@ -1408,6 +1412,7 @@ animation-duration:0s;
 section,.slide
 {
   position: relative;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -1695,6 +1700,7 @@ Blocks Links li>a = .flexblock.blink (.blink required)
   margin-right: auto;
   margin-left: auto;
   padding: 0;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -1714,6 +1720,7 @@ Blocks Links li>a = .flexblock.blink (.blink required)
 .flexblock li,
 .flexblock.blink li>a {
   position: relative;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   /*making paragraphs and linked block*/
@@ -2136,6 +2143,7 @@ margin-top: .8rem;
   width: 100%;
   height: 100%;
   cursor: pointer;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -2342,6 +2350,7 @@ CV / News
 =============================================== */
 
 .cta {
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -2353,6 +2362,7 @@ CV / News
 .cta .benefit {
   padding: .8rem;
   max-width: 100%;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -2449,6 +2459,7 @@ p + .work {
 }
 
 .work {
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -2645,6 +2656,7 @@ p + .work {
 [class*="card-"],
 [class*="card-"]>a {
   position: relative;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -2690,6 +2702,7 @@ object-fit to re-frame images rather than just stretch and resize them  === */
 .flex-content,
 [class*="card-"] blockquote {
   position: relative;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -2778,6 +2791,7 @@ object-fit to re-frame images rather than just stretch and resize them  === */
   right: 0;
   width: 100%;
   height: 100%;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;

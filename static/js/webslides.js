@@ -263,6 +263,7 @@ jQuery(document).ready(function($){
         updateCounter();
       }
 
+      flexibility(document.documentElement);
 
       /*** EVENTS ***/
 
