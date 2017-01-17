@@ -263,6 +263,7 @@ jQuery(document).ready(function($){
         updateCounter();
       }
 
+      flexibility(document.documentElement);
 
       /*** EVENTS ***/
 
@@ -331,4 +332,3 @@ jQuery(document).ready(function($){
     $('body').toggleClass('baseline').css('height', $(document).height());
     }
   });
-   
